@@ -1,0 +1,15 @@
+subset,asset_count,feasible,variance,weight_hardware,weight_software,weight_entertainment,weight_treasury_bills
+hardware,1,False,,,,,
+software,1,True,6.0,0.0,1.0,0.0,0.0
+entertainment,1,True,6.4,0.0,0.0,0.8,0.0
+treasury_bills,1,False,,,,,
+"hardware, software",2,True,6.0,0.0,1.0,0.0,0.0
+"hardware, entertainment",2,True,3.0,0.5,0.0,0.5,0.0
+"hardware, treasury_bills",2,False,,,,,
+"software, entertainment",2,True,4.2222222222,0.0,0.6666666667,0.3333333333,0.0
+"software, treasury_bills",2,True,6.0,0.0,1.0,0.0,0.0
+"entertainment, treasury_bills",2,True,3.6,0.0,0.0,0.6,0.4
+"hardware, software, entertainment",3,True,2.9821428571,0.4464285714,0.0714285714,0.4821428571,0.0
+"hardware, software, treasury_bills",3,True,6.0,0.0,1.0,0.0,0.0
+"hardware, entertainment, treasury_bills",3,True,2.925,0.375,0.0,0.525,0.1
+"software, entertainment, treasury_bills",3,True,3.1235294118,0.0,0.2647058824,0.4941176471,0.2411764706
